@@ -34,4 +34,4 @@ function counterApp() {
 }
 
 //render your react application
-setInterval(counterApp, 10);
+setInterval(counterApp, 50);

@@ -31,6 +31,12 @@ export function Home(props) {
 					{props.props6}
 				</div>
 			</div>
+			<br />
+			<button
+				className="btn btn-dark"
+				onClick={() => window.location.reload(false)}>
+				Click to reload!
+			</button>
 		</div>
 	);
 }
