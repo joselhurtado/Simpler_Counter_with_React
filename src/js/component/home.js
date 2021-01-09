@@ -9,14 +9,28 @@ import rigoImage from "../../img/rigo-baby.jpg";
 export function Home(props) {
 	console.log(props.counter);
 	return (
-		<div className="text-center mt-5">
+		<div className="container text-center mt-5">
 			<h1>SIMPLE COUNTER</h1>
-			<div>{props.props1}</div>
-			<div>{props.props2}</div>
-			<div>{props.props3}</div>
-			<div>{props.props4}</div>
-			<div>{props.props5}</div>
-			<div>{props.props6}</div>
+			<div className="row">
+				<div className="col square text-white bg-dark">
+					{props.props1}
+				</div>
+				<div className="col square text-white bg-primary">
+					{props.props2}
+				</div>
+				<div className="col square text-white bg-danger">
+					{props.props3}
+				</div>
+				<div className="col square text-white bg-success">
+					{props.props4}
+				</div>
+				<div className="col square text-white bg-info">
+					{props.props5}
+				</div>
+				<div className="col square text-white bg-secondary">
+					{props.props6}
+				</div>
+			</div>
 		</div>
 	);
 }

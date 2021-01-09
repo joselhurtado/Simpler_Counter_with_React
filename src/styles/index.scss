@@ -1,13 +1,26 @@
 @import "~bootstrap/scss/bootstrap.scss";
+@import url('https://fonts.googleapis.com/css2?family=Major+Mono+Display&family=VT323&display=swap');
 
-/* 
+body{
+    background:yellow;
+}
 
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
-
-*/
+h1 {
+    font-weight: bolder;
+    font-family: 'VT323', monospace;
+    line-height: normal;
+    font-size: 92px;
+    color:#000;
+}
+.square {
+    margin: 15px;
+    font-size: 120px;
+    font-weight: bolder;
+    font-family: 'Major Mono Display', monospace;
+    line-height: normal;
+    width: 200px;
+    height: 150px;
+    padding-top: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    border-radius: 20px;
+}
