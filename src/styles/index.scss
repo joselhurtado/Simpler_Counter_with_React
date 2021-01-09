@@ -1,26 +1,49 @@
 @import "~bootstrap/scss/bootstrap.scss";
-@import url('https://fonts.googleapis.com/css2?family=Major+Mono+Display&family=VT323&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
 
-body{
-    background:yellow;
+body {
+	animation-name: backgroundColorPalette;
+	animation-duration: 5s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+	animation-timing-function: linear; 
+	/* linear is enabled default, it’s not necessary to add it make it work but it can make your code more expressive */
+}
+
+@keyframes backgroundColorPalette {
+	0% {
+		background: #ee6055;
+	}
+	25% {
+		background: #60d394;
+	}
+	50% {
+		background: #aaf683;
+	}
+	75% {
+		background: #ffd97d;
+	}
+	100% {
+		background: #ff9b85;
+	}
 }
 
 h1 {
-    font-weight: bolder;
-    font-family: 'VT323', monospace;
+    font-family: 'Press Start 2P', cursive;
     line-height: normal;
-    font-size: 92px;
+    font-size: 52px;
+    margin-bottom: 100px;
+    margin-top: 200px;
     color:#000;
 }
 .square {
     margin: 15px;
-    font-size: 120px;
-    font-weight: bolder;
-    font-family: 'Major Mono Display', monospace;
+    font-size: 92px;
+    font-family: 'Press Start 2P', cursive;
     line-height: normal;
     width: 200px;
     height: 150px;
-    padding-top: 10px;
+    padding-top: 35px;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     border-radius: 20px;
 }
