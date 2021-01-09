@@ -1,16 +1,16 @@
-import React from 'react';
+// import React from 'react';
 
-function Reset() {
+// function Reset() {
   
-  function refreshPage() {
-    window.location.reload(false);
-  }
+//   function refreshPage() {
+//     window.location.reload(false);
+//   }
   
-  return (
-    <div>
-      <button onClick={refreshPage}>Click to reload!</button>
-    </div>
-  );
-}
+//   return (
+//     <div>
+//       <button onClick={refreshPage}>Click to reload!</button>
+//     </div>
+//   );
+// }
 
-export default Reset;
+// export default Reset;
